@@ -1,0 +1,54 @@
+<!--Top Bar-->
+<Language "English">
+
+<!--Menu -->
+<Menu "Menu">
+<Register "Register">
+<FAQ "FAQ">
+<Calender "Calender">
+
+<Footer "Copyright © 2015 Andrew, Inc. All Rights Reserved">
+
+<!--Login Page -->
+<LoginTitle "Login">
+<UserNameTitle "User Name:">
+<PasswordTitle "Password:">
+<RememberMe "Remember Me">
+<SignIn "Sign In">
+<ForgetLogin "Forget Password/ User Name">
+<Invalid "Invalid user name/email or password">
+<Empty "Input cannot be empty">
+
+<!-- BreadCrumbs -->
+<HomeBreadCrumb "Home">
+<ThreadBreadCrumb "Sub-Forum">
+<PostBreadCrumb "Thread">
+
+<!-- Thread -->
+<TopicTitle "Topic">
+<CreatedTitle "Created">
+<LastPostTitle "Last Post">
+<PostsTitle "Posts">
+<ViewsTitle "Views">
+<RatingTitle "Rating">
+
+<NewThread "New Thread">
+<Create "Create">
+<ThreadName "ThreadName">
+
+<!-- Register -->
+<RegisterTitle "Register">
+<UserName "User Name">
+<Email "Email">
+<Password "Password">
+<RetypePassword "Retype Password">
+<SignUp "Sign Up">
+
+<!-- Forget -->
+<ForgetTitle "How Can We Help You">
+
+
+<!-- Message -->
+<CreateMessage "Compose">
+<MessageTitle "Message">
+<NewMessage "New Message">

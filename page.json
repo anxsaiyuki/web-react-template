@@ -1,0 +1,10 @@
+{
+    "index":"./src/index.jsx",
+    "thread":"./src/thread.jsx",
+    "post":"./src/post.jsx",
+    "account":"./src/account.jsx",
+    "user-forget":"./src/user-forget.jsx",
+    "register":"./src/register.jsx",
+    "create":"./src/create.jsx",
+    "message":"./src/message.jsx"
+}

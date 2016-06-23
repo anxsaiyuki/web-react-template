@@ -1,0 +1,53 @@
+.create-message-btn {
+    float:right;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.message-top {
+    background-color: grey;
+    height: 50px;
+    text-align: center;
+}
+
+.message-title {
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+.message-search {
+    float: right;
+    height: 25px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+.message-single {
+    border: 1px solid grey;   
+    min-height: 60px;   
+}
+
+.message-single-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.message-date {
+    float:right;
+    font-size:12px;
+    font-style: italic;
+}   
+
+#control-tab {
+    cursor: pointer;
+}
+
+.new-message-title {
+    font-size:14px;
+    font-weight: bold;
+}

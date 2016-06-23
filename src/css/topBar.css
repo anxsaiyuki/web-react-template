@@ -1,0 +1,180 @@
+/*==== Top Bar ====*/
+
+.top-bar-menu {
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+/*==== Language Selection DropDown ====*/
+
+#language-selection {
+    float: right;
+    height: 24px;
+}
+
+.home-link {
+    float: left;
+}
+
+.home-icon {
+    height: 24px;   
+}
+/*=====================================*/
+
+/*==== Login Box ====*/
+.login-link {
+    margin-right: 10px; 
+    color:white;
+    float: right;
+}
+
+.logout-link {
+    margin-right: 10px; 
+    color:white;
+    float: right;
+}
+
+.welcome-user {
+    margin-left: 20px; 
+    color:white;
+    float: left;
+}
+
+.message-mail {
+    float:right;
+    margin-right: 20px;
+    height: 25px;
+}
+
+.login-link:hover {
+    cursor: pointer;   
+}
+
+.logout-link:hover {
+    cursor: pointer;   
+}
+
+
+#mask {
+	display: none;
+	background: #000; 
+	position: fixed; left: 0; top: 0; 
+	z-index: 10;
+	width: 100%; height: 100%;
+	opacity: 0.8;
+	z-index: 999;
+}
+
+#login-box {
+    display: none;
+	background: #333;
+	padding: 10px; 	
+	border: 2px solid #ddd;
+	float: left;
+	font-size: 1.2em;
+	position: fixed;
+	top: 50%; left: 50%;
+	z-index: 99999;
+    box-shadow: 0px 0px 20px #999;
+	-moz-box-shadow: 0px 0px 20px #999; /* Firefox */
+    -webkit-box-shadow: 0px 0px 20px #999; /* Safari, Chrome */
+	border-radius:3px 3px 3px 3px;
+    -moz-border-radius: 3px; /* Firefox */
+    -webkit-border-radius: 3px; /* Safari, Chrome */
+    transform: translate(-50%, -50%);
+}
+
+img.btn_close {
+	float: right; 
+	margin: -28px -28px 0 0;
+}
+
+img.btn_close:hover {
+    cursor: pointer;
+}
+
+.login-box-row {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.box-user-title, .box-password-title {
+     color:white;   
+}
+
+.box-user-title, .box-password-title, .box-forget-login, .box-login-error {
+    font-size: 15px;
+    text-align: center;
+}
+
+.box-forget-login:hover {
+    cursor: pointer;   
+}
+
+.box-login-btn {
+    margin-bottom: 5px;
+}
+
+.box-login-btn {
+	-moz-box-shadow: 0px 10px 14px -7px #276873;
+	-webkit-box-shadow: 0px 10px 14px -7px #276873;
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+	background:-moz-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-webkit-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-o-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-ms-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+	background-color:#599bb3;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.box-login-btn:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+	background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+	background-color:#408c99;
+}
+.box-login-btn:active {
+	position:relative;
+	top:1px;
+}
+
+.box-user-input, .box-password-input {
+    border: 1px solid #b7b7b7;
+    -webkit-border-radius: 20px;
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.66);
+}
+
+.box-login-error {
+    color: red;
+}
+
+
+/*=================================*/
+
+/*==== Banner ====*/
+.banner {
+    border: 1px solid black;
+    height:100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

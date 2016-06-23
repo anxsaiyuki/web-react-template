@@ -1,0 +1,25 @@
+#menu {
+    background-color: #78C7C7;   
+}
+
+.menu-list li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #FFFFFF;
+}
+
+.menu-list{
+    margin-bottom: 0;
+}
+
+.menu-list li a {
+    text-decoration: none;
+}
+
+.menu-list li:hover {
+    cursor: pointer;  
+    background-color: cadetblue;
+}

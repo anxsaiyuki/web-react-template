@@ -1,0 +1,10 @@
+<!--Top Bar-->
+<Language "中文">
+
+<!--Menu -->
+<Menu "選單">
+<Register "註冊">
+<FAQ "FAQ">
+<Calender "日曆">
+
+<Footer "Copyright © 2015 Andrew, Inc. All Rights Reserved">

@@ -1,0 +1,17 @@
+.thread-create-container {
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+}
+
+.thread-create-title {
+    font-size: 16px;
+    font-weight: bold;   
+}
+
+.thread-create-subtitle, .thread-post-subtitle {
+    font-size:12px;
+    font-weight: bold;
+}
+

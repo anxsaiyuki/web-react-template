@@ -1,0 +1,1 @@
+webpackJsonp([2],{191:function(e,o,t){var a=t(91),n=t(92);t(220),e.exports=a.createClass({displayName:"exports",displayname:"footer",mixins:[n],render:function(){return a.createElement("div",{className:"footer-content"},this.l20nt("Footer"))}})},214:function(e,o){e.exports=".footer-content{text-align:center}"},220:function(e,o,t){t(188)(t(214))}});
